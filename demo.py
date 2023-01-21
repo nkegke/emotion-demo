@@ -32,6 +32,8 @@ modality = sys.argv[1]
 # model
 pretrained = "adjusted_mobilenet_" + modality + ".pth"
 if not os.path.isfile('pretrained/'+pretrained):
+	if not os.path.exists('pretrained/'):
+		os.mkdir('pretrained/')
 	if modality == 'face':
 		os.system('gdown 1VeyoOrfcbxmAfJvJNMxSL967lja53_0X')
 	else:
