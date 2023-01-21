@@ -16,7 +16,7 @@ Neutral, Happiness, Sadness, Surprise, Frustration, Fear, Disgust
 
 Positive, Neutral, Negative
 
-<img src="https://github.com/nkegke/files/blob/main/demo/body.gif" style="width: 25vw;"/>
+<img src="https://github.com/nkegke/files/blob/main/demo/body.gif" style="width: 15vw;"/>
 
 <hr />
 
