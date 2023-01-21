@@ -132,7 +132,7 @@ while capture.isOpened():
 				negativity = sum([o for i, o in enumerate(out) if BoLD_dict[categories[i]] == 'Negative'])
 				gen_cat = {"Positive": positivity, "Neutral": neutrality, "Negative": negativity}
 				
-				print(gen_cat)
+# 				print(gen_cat)
 				confidence = max(gen_cat.values())
 				prediction = max(gen_cat, key=gen_cat.get)
 			
@@ -141,11 +141,11 @@ while capture.isOpened():
 			t3 = time.time()
 			inference = t3-t2
 			
-			inds = sorted(range(len(out)), key=lambda k: out[k])[::-1]
-			print('########## Predictions ##########')
-			for ind in inds:
-				print(categories[ind], ':   \t', out[ind], sep='')
-			print('\n')
+# 			inds = sorted(range(len(out)), key=lambda k: out[k])[::-1]
+# 			print('########## Predictions ##########')
+# 			for ind in inds:
+# 				print(categories[ind], ':   \t', out[ind], sep='')
+# 			print('\n')
 
 		elif modality == 'body':
 			image = transform(image).squeeze()
