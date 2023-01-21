@@ -8,7 +8,7 @@ This is a demo which takes input face or body from webcam and predicts the follo
 
 Neutral, Happiness, Sadness, Surprise, Frustration, Fear, Disgust
 
-<img src="https://github.com/nkegke/files/blob/main/demo/face.gif " style="width: 25vw;"/>
+<img src="https://github.com/nkegke/files/blob/main/demo/face.gif "/>
 
 <hr />
 
@@ -16,7 +16,7 @@ Neutral, Happiness, Sadness, Surprise, Frustration, Fear, Disgust
 
 Positive, Neutral, Negative
 
-<img src="https://github.com/nkegke/files/blob/main/demo/body.gif" style="width: 25vw;"/>
+<img src="https://github.com/nkegke/files/blob/main/demo/body.gif"/>
 
 <hr />
 
