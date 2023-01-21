@@ -8,7 +8,7 @@ This is a demo which takes input from webcam and predicts the following emotions
 
 Face     |  Body
 :-------:|:----------:
-<img src="https://github.com/nkegke/files/blob/main/demo/face.gif " style="width: 30vw;"/> | <img src="https://github.com/nkegke/files/blob/main/demo/body.gif" style="width: 30vw;"/>
+<img src="https://github.com/nkegke/files/blob/main/demo/face.gif " style="width: 25vw;"/> | <img src="https://github.com/nkegke/files/blob/main/demo/body.gif" style="width: 25vw;"/>
 
 ## Prerequisites
 Install the required packages below:
