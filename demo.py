@@ -30,7 +30,7 @@ if len(sys.argv) < 2 or sys.argv[1] not in ['face', 'body']:
 modality = sys.argv[1]
 
 # model
-pretrained = "adjusted_mobilenet3_" + modality + ".pth"
+pretrained = "adjusted_mobilenet_" + modality + ".pth"
 if not os.path.isfile('pretrained/'+pretrained):
 	if modality == 'face':
 		os.system('gdown 1VeyoOrfcbxmAfJvJNMxSL967lja53_0X')
