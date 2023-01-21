@@ -8,7 +8,7 @@ This is a demo which takes input from webcam and predicts the following emotions
 
 Face     |  Body
 :-------:|:----------:
-<img src="https://github.com/nkegke/files/blob/main/face.gif " style="width: 30vw;"/> | <img src="https://github.com/nkegke/files/blob/main/body.gif" style="width: 30vw;"/>
+<img src="https://github.com/nkegke/files/blob/main/demo/face.gif " style="width: 30vw;"/> | <img src="https://github.com/nkegke/files/blob/main/demo/body.gif" style="width: 30vw;"/>
 
 ## Prerequisites
 Install the required packages below:
@@ -35,7 +35,7 @@ python demo.py INPUT mask
 
 ## How it works
 
-<img src="https://github.com/nkegke/files/blob/main/demo.png"/>
+<img src="https://github.com/nkegke/files/blob/main/demo/demo.png"/>
 
 The Face Mesh detection step is optional for body input.
 
