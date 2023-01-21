@@ -1,14 +1,24 @@
 # Real-Time Emotion Recognition Demo
 
-This is a demo which takes input from webcam and predicts the following emotions:
+This is a demo which takes input face or body from webcam and predicts the following emotions:
 
-* **Face**: Neutral, Happiness, Sadness, Surprise, Frustration, Fear, Disgust
+<hr />
 
-* **Body**: Positive, Neutral, Negative
+* **Face**
 
-Face     |  Body
-:-------:|:----------:
-<img src="https://github.com/nkegke/files/blob/main/demo/face.gif " style="width: 20vw;"/> | <img src="https://github.com/nkegke/files/blob/main/demo/body.gif" style="width: 20vw;"/>
+Neutral, Happiness, Sadness, Surprise, Frustration, Fear, Disgust
+
+<img src="https://github.com/nkegke/files/blob/main/demo/face.gif " style="width: 25vw;"/>
+
+<hr />
+
+* **Body**
+
+Positive, Neutral, Negative
+
+<img src="https://github.com/nkegke/files/blob/main/demo/body.gif" style="width: 25vw;"/>
+
+<hr />
 
 ## Prerequisites
 Install the required packages below:
