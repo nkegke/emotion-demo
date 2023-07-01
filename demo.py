@@ -35,9 +35,9 @@ if not os.path.isfile('pretrained/'+pretrained):
 	if not os.path.exists('pretrained/'):
 		os.mkdir('pretrained/')
 	if modality == 'face':
-		os.system('gdown 1VeyoOrfcbxmAfJvJNMxSL967lja53_0X')
+		os.system('gdown 16FP2seZDSyuYtIwDi1i50AL1pHCewnDC')
 	else:
-		os.system('gdown 14mtoYKoux-H_2S45MxHP5t3ZRoHYIj9E')
+		os.system('gdown 1ubfzQCVmC-NEH2TsmNI2dQKDZBSjaIAh')
 	os.system('mv '+pretrained+' pretrained/')
 
 print('Using pretrained model: ' + pretrained)
